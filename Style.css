@@ -2,6 +2,7 @@
 header {
     background-color: #ff7b42;
     color: white;
+    margin: 0;
     padding: 20px;
     text-align: center;
 }
@@ -56,9 +57,7 @@ td img {
 
 /*About Section Styling*/
 .about-us {
-    background-image: url('about-us-image.jpg');
     padding: 50px;
-    background-size: cover;
     color: white;
     text-align: center;
 }
@@ -141,7 +140,7 @@ footer {
 /*Background Image Styling*/
 .Discription{color: #ffffff;}
 body{
-    background-image: url(1371056.png); background-repeat: no-repeat;
+    background-image: url(images/1371056.png); background-repeat: no-repeat;
     background-position: bottom center;background-attachment: fixed;
     background-size: cover;
 }
