@@ -132,11 +132,14 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 20%;
+    position: fixed; /* Changed from relative to fixed */
+    bottom: 0; /* Ensures it stays at the bottom */
+    width: 100%; /* Stretches across the viewport */
+    height: auto; /* Adjusts height automatically */
+    margin: -10px; /* Removes unnecessary margin */
+    z-index: 1000; /* Ensures it stays on top of other elements */
 }
+
 /*Background Image Styling*/
 .Discription{color: #ffffff;}
 body {
