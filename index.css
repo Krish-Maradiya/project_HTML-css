@@ -2,7 +2,7 @@
 header {
     background-color: #ff7b42;
     color: white;
-    margin: -10;
+    margin: -10px;
     padding: 20px;
     text-align: center;
 }
@@ -142,11 +142,8 @@ footer {
 
 /*Background Image Styling*/
 .Discription{color: #ffffff;}
-body {
-    background-color: #000;
-    background-image: url('1371056.png');
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-attachment: fixed;
+body{
+    background-image: url(images/1371056.png); background-repeat: no-repeat;
+    background-position: bottom center;background-attachment: fixed;
     background-size: cover;
 }
