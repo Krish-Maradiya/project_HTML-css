@@ -139,8 +139,11 @@ footer {
 }
 /*Background Image Styling*/
 .Discription{color: #ffffff;}
-body{
-    background-image: url(images/1371056.png); background-repeat: no-repeat;
-    background-position: bottom center;background-attachment: fixed;
+body {
+    background-color: #000;
+    background-image: url('images/1371056.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
     background-size: cover;
 }
